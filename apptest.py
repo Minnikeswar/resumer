@@ -12,6 +12,7 @@ from nltk.corpus import stopwords
 import re
 from nltk import pos_tag,word_tokenize
 import time
+nltk.download('punkt')
 
 def match(resume , job_decription):
     model = pk.load(open('model.pkl' , 'rb'))
