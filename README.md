@@ -26,6 +26,11 @@ The project aims to build an interactive application that utilizes NLP for resum
 
 --> Personalised recommendations for improving resumes
 
+# Tools
+
+Frontend : Streamlit
+Backend : word2vec, NLTK, POS tagging, PyPDF2
+
 # Usage
 Enter your details like email, phone number.
 
