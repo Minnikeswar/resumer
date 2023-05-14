@@ -1,57 +1,48 @@
 
-Hackathon Project - Streamlit NLP Application
+Aspire Infolabs Hackathon Project - Resume Matching with Job Description
 Tech Titans Hackathon Project
+
+Project Title: Resumer
+
+# Project Website: https://minnikeswar-resumer-app-rbjb74.streamlit.app/
+
+# WireFrame(Figma): https://www.figma.com/file/NHh81Vkre0VE8LWD36txRu/Untitled?type=design&node-id=0%3A1&t=XKplD6A1QL7SKFsQ-1 
+
+# Presentation: https://my.visme.co/view/8roxd0vm-untitled-project
 
 Team: Tech Titans
 This project was developed by Team Tech Titans as part of a hackathon. Our goal was to leverage Streamlit and NLP (Natural Language Processing) techniques to create an innovative and user-friendly application.
 
-Project Description
-The project aims to build an interactive application that utilizes NLP for various text processing and analysis tasks. The application is built using Streamlit, a Python framework for creating web applications with ease.
+# Project Description:
+The project aims to build an interactive application that utilizes NLP for resume matching with job description. The application is built using Streamlit, a Python framework for creating web applications with ease.
 
-Features
-The application offers the following key features:
+# Features:
 
-Text Preprocessing: Users can input raw text and apply various preprocessing techniques such as tokenization, stop word removal, stemming, and lemmatization.
+--> Resume analysis based on job description
 
-Sentiment Analysis: The application can analyze the sentiment of a given text and provide insights on whether the text is positive, negative, or neutral.
+--> Match percentage calculation
 
-Named Entity Recognition (NER): Users can extract entities such as names, organizations, locations, and more from a text using NER techniques.
+--> Highlights of matching and unmatching skills 
 
-Text Summarization: The application can generate a concise summary of a long text, making it easier for users to grasp the main points.
-
-Language Translation: Users can translate text from one language to another using the built-in translation feature.
-
-Installation and Setup
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/tech-titans/streamlit-nlp-app.git
-Install the required dependencies:
-
-Copy code
-pip install -r requirements.txt
-Run the application:
-
-arduino
-Copy code
-streamlit run app.py
-Open the application in your web browser by visiting http://localhost:8501.
+--> Personalised recommendations for improving resumes
 
 # Usage
-Enter or paste the text you want to process or analyze into the provided input box.
+Enter your details like email, phone number.
 
-Select the desired feature from the sidebar.
-
-Click the corresponding button to perform the selected operation on the text.
+Select the resume and job description files from your local machine.
 
 View the output/results in the application's interface.
 
-# Team Members
+The percentage of match and matched and unmatched skills will be displayed to upgrade your resume.
 
+# Team Members
+T. Minnikeswar Rao
+Sk. Riyaz
+P. Sanjay
+K. Guna Shankar
+B. Harika
+K. Vinay Kumar
+T. Yateesh
 
 Acknowledgments
 We would like to thank the organizers of the hackathon for providing us with the opportunity to showcase our skills and build this application. We also extend our gratitude to the open-source community for their valuable contributions in the development of Streamlit and NLP libraries.
-
-# License
-This project is licensed under the ANITS License.
