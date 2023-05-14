@@ -115,7 +115,7 @@ def app():
             st.image(profile_picture_path, width=200, clamp=True, channels="RGB")
 
         with col2:
-        # Display the profile name and description
+        # Display the profile name and description  
             st.write("# TechTitans")
             st.write("Software Engineer with 5 years of experience in web development and data analysis.")
         # Email input
