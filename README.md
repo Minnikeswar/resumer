@@ -43,11 +43,17 @@ The percentage of match and matched and unmatched skills will be displayed to up
 
 # Team Members
 T. Minnikeswar Rao
+
 Sk. Riyaz
+
 P. Sanjay
+
 K. Guna Shankar
+
 B. Harika
+
 K. Vinay Kumar
+
 T. Yateesh
 
 Acknowledgments
