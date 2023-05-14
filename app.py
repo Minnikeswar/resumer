@@ -135,12 +135,12 @@ def app():
     uploaded_jd = st.file_uploader("Choose a job description file", type="pdf")
     parssed = ""
     if uploaded_file is not None and uploaded_jd is not None:
-        try:
-            bundle = match(uploaded_file,uploaded_jd)
-            result(bundle)
-        except Exception as e:
-#             print(e)
-            st.warning('File Encoding not supported' + e , icon="⚠️")
+#         try:
+        bundle = match(uploaded_file,uploaded_jd)
+        result(bundle)
+#         except Exception as e:
+# #             print(e)
+#             st.warning('File Encoding not supported' + e , icon="⚠️")
 
 def remove_dictionary_words(word_list):
     english_vocab = set(words.words())
