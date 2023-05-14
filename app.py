@@ -27,7 +27,7 @@ def match(resume , job_decription):
         for word in resume:
             if word not in model.wv.key_to_index:
                 continue
-            if(model.wv.similarity(key , word) >= 0.75):
+            if(model.wv.similarity(key , word) >= 0.65):
                 match = True
 
         if not match:
