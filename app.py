@@ -11,7 +11,6 @@ from nltk import pos_tag,word_tokenize
 import time
 import logging
 
-
 def match(resume , job_decription):
     model = pk.load(open('model.pkl' , 'rb'))
     try:
@@ -45,8 +44,7 @@ def match(resume , job_decription):
         match_score += tuple[1]
     for tuple in nonmatched_words.items():
         nonmatch_score += tuple[1]
-    return round(100*((match_score/(match_score+nonmatch_score)) + 0.3) , 2) , matched_words.most_common(min(5 , len(matched_words))) , nonmatched_words.most_common(min(5 , len(nonmatched_words)))
-
+    return round(100*(match_score/(match_score+nonmatch_score)) + (match_score/(match_score+nonmatch_score))* 0.3 , 2) , matched_words.most_common(min(5 , len(matched_words))) , nonmatched_words.most_common(min(5 , len(nonmatched_words)))
 def gen_text(pdf_file):
     try:
         pdf_reader = PyPDF2.PdfReader(pdf_file)
