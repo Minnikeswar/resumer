@@ -29,6 +29,7 @@ The project aims to build an interactive application that utilizes NLP for resum
 # Tools
 
 Frontend : Streamlit
+
 Backend : word2vec, NLTK, POS tagging, PyPDF2
 
 # Usage
