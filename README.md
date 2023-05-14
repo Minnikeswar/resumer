@@ -57,4 +57,5 @@ K. Vinay Kumar
 T. Yateesh
 
 Acknowledgments
+
 We would like to thank the organizers of the hackathon for providing us with the opportunity to showcase our skills and build this application. We also extend our gratitude to the open-source community for their valuable contributions in the development of Streamlit and NLP libraries.
