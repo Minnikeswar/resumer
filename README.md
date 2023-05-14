@@ -4,11 +4,14 @@ Tech Titans Hackathon Project
 
 Project Title: Resumer
 
-# Project Website: https://minnikeswar-resumer-app-rbjb74.streamlit.app/
+# Project Website: 
+https://minnikeswar-resumer-app-rbjb74.streamlit.app/
 
-# WireFrame(Figma): https://www.figma.com/file/NHh81Vkre0VE8LWD36txRu/Untitled?type=design&node-id=0%3A1&t=XKplD6A1QL7SKFsQ-1 
+# WireFrame(Figma): 
+https://www.figma.com/file/NHh81Vkre0VE8LWD36txRu/Untitled?type=design&node-id=0%3A1&t=XKplD6A1QL7SKFsQ-1 
 
-# Presentation: https://my.visme.co/view/8roxd0vm-untitled-project
+# Presentation: 
+https://my.visme.co/view/8roxd0vm-untitled-project
 
 Team: Tech Titans
 This project was developed by Team Tech Titans as part of a hackathon. Our goal was to leverage Streamlit and NLP (Natural Language Processing) techniques to create an innovative and user-friendly application.
@@ -42,7 +45,7 @@ View the output/results in the application's interface.
 The percentage of match and matched and unmatched skills will be displayed to upgrade your resume.
 
 # Team Members
-T. Minnikeswar Rao
+T. Minnikeswar Rao 
 
 Sk. Riyaz
 
