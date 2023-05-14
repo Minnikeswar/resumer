@@ -109,7 +109,7 @@ def app():
         st.header("Apply to Aspire infoLabs")
         st.markdown("<h3>Contact info</h3>", unsafe_allow_html=True)
         col1, col2 = st.columns([2, 3])
-        profile_picture_path = "./asserts/profile_picture.jpg"
+        profile_picture_path = "asserts/profile_picture.jpg"
         with col1:
         # Display the circular profile picture
             st.image(profile_picture_path, width=200, clamp=True, channels="RGB")
